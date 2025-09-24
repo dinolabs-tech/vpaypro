@@ -5,8 +5,8 @@ require_once 'database/db_connection.php';
 function createTable($conn, $sql, $tableName)
 {
     if ($conn->query($sql) === TRUE) {
-        echo "Table '$tableName' created successfully or already exists.<br>";
-        return true;
+        // echo "Table '$tableName' created successfully or already exists.<br>";
+        // return true;
     } else {
         echo "Error creating table '$tableName': " . $conn->error . "<br>";
         error_log("Error creating table '$tableName': " . $conn->error);
@@ -472,7 +472,7 @@ $tables = [
     [
         'name' => 'session_logs',
         'sql' => "
-            CREATE TABLE session_logs (
+            CREATE TABLE IF NOT EXISTS session_logs (
             id INT AUTO_INCREMENT PRIMARY KEY,
             user_id INT NULL,
             event_type VARCHAR(50) NOT NULL,  -- 'login', 'logout', 'timeout', 'hijack'
@@ -507,14 +507,5 @@ foreach ($tables as $table) {
     }
 }
 
-// Alter transactiondetails table
-$sql_alter_transactiondetails = "ALTER TABLE transactiondetails MODIFY COLUMN transactionID VARCHAR(222) NOT NULL";
-if ($conn->query($sql_alter_transactiondetails) === TRUE) {
-    echo "Table 'transactiondetails' altered successfully.<br>";
-} else {
-    echo "Error altering table transactiondetails: " . $conn->error . "<br>";
-    error_log("Error altering table transactiondetails: " . $conn->error);
-}
-
 // Close the connection
-$conn->close();
+// $conn->close();

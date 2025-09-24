@@ -1,6 +1,7 @@
 <?php
 session_start();
 include('db_connect.php');
+include('backend/database_schema.php');
 include('includes/functions.php');
 
 // Pagination variables
