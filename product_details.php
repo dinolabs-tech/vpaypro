@@ -118,11 +118,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 								<div class="flexslider-thumbnails">
 									<ul class="slides">
 										<?php if (!empty($product['image_url'])): ?>
-											
-												<li data-thumb="backend/<?php echo htmlspecialchars($product['image_url']); ?>">
-													<img class="rounded img-fluid" src="backend/<?php echo htmlspecialchars($product['image_url']); ?>" alt="<?php echo htmlspecialchars($product['productname']); ?>" style="height:50vh; width:100vw;">
-												</li>
-											
+
+											<li data-thumb="backend/<?php echo htmlspecialchars($product['image_url']); ?>">
+												<img class="rounded img-fluid" src="backend/<?php echo htmlspecialchars($product['image_url']); ?>" alt="<?php echo htmlspecialchars($product['productname']); ?>" style="height:50vh; width:100vw;">
+											</li>
+
 										<?php else: ?>
 											<li data-thumb="assets/img/default.jpg">
 												<img class="rounded" src="assets/img/default.jpg" alt="Default Image">
@@ -142,19 +142,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 									<div class="rating-main">
 										<?php echo generate_stars($product['avg_rating']); ?>
 									</div>
-									<?php if ($product['discount'] > 0 ): ?>
+									<?php if ($product['discount'] > 0): ?>
 										<p><strong>Price: <span class="discount">
-										<?php $discounted_value = ($product['discount'] / 100) * $product['sellprice'];
-										$discount = $product['sellprice'] - $discounted_value;
-										?>	
-										$<?php echo htmlspecialchars($discount); ?></strong></span> <small><s class="original-price">$<?php echo htmlspecialchars($product['sellprice']); ?></s></small></p>
+													<?php $discounted_value = ($product['discount'] / 100) * $product['sellprice'];
+													$discount = $product['sellprice'] - $discounted_value;
+													?>
+													&#8358; <?php echo htmlspecialchars($discount); ?></strong></span> <small><s class="original-price">&#8358; <?php echo htmlspecialchars($product['sellprice']); ?></s></small></p>
 										<?php
 										$percentage_reduction = $product['discount'];
 										echo '<p class="percentage-reduction"><strong>' . round($percentage_reduction) . '% off</strong></p>';
 										?>
-										
+
 									<?php else: ?>
-										<p><strong>Price:</strong> $<?php echo htmlspecialchars($product['sellprice']); ?></p>
+										<p><strong>Price:</strong> &#8358; <?php echo htmlspecialchars($product['sellprice']); ?></p>
 									<?php endif; ?>
 									<p class="description"><strong>Description: </strong> <?php echo htmlspecialchars($product['description']); ?></p>
 								</div>
@@ -178,12 +178,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 								<div class="product-buy">
 									<?php if (!isset($_SESSION['user_id'])) { ?>
 										<a href="backend/index.php" class="btn rounded text-white">Add to cart</a>
-										<?php } else { ?>
-									<div class="add-to-cart">
-										<a href="cart.php?add=<?php echo htmlspecialchars($product['productid']); ?>" class="btn rounded text-white">Add to cart</a>
-										<a href="wishlist.php?add=<?php echo htmlspecialchars($product['productid']); ?>" class="btn min rounded text-white"><i class="ti-heart"></i></a>
-										<a href="compare.php?add=<?php echo htmlspecialchars($product['productid']); ?>" class="btn min rounded text-white"><i class="fa fa-compress"></i></a>
-									</div>
+									<?php } else { ?>
+										<div class="add-to-cart">
+											<a href="cart.php?add=<?php echo htmlspecialchars($product['productid']); ?>" class="btn rounded text-white">Add to cart</a>
+											<a href="wishlist.php?add=<?php echo htmlspecialchars($product['productid']); ?>" class="btn min rounded text-white"><i class="ti-heart"></i></a>
+											<a href="compare.php?add=<?php echo htmlspecialchars($product['productid']); ?>" class="btn min rounded text-white"><i class="fa fa-compress"></i></a>
+										</div>
 									<?php } ?>
 									<p class="cat">Category :<a href="#"><?php echo htmlspecialchars($product['category_name']); ?></a></p>
 									<p class="availability">Availability : <?php echo htmlspecialchars($product['quantity']); ?></p>
@@ -212,7 +212,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 													<div class="single-des">
 														<p><?php echo htmlspecialchars($product['description']); ?></p>
 													</div>
-				
+
 												</div>
 											</div>
 										</div>
@@ -330,7 +330,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 	<!--/ End Shop Single -->
 
 	<!-- Start Most Popular -->
-	<div class="product-area most-popular related-product section">
+	<!-- <div class="product-area most-popular related-product section">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
@@ -343,7 +343,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 				<div class="col-12">
 					<div class="owl-carousel popular-slider">
 
-						<!-- Start Single Product -->
+						
 						<div class="single-product">
 							<div class="product-img">
 								<a href="product_details.php">
@@ -370,10 +370,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 								</div>
 							</div>
 						</div>
-						<!-- End Single Product -->
-
-
-						<!-- Start Single Product -->
+						
+						
 						<div class="single-product">
 							<div class="product-img">
 								<a href="product_details.php">
@@ -398,8 +396,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 								</div>
 							</div>
 						</div>
-						<!-- End Single Product -->
-						<!-- Start Single Product -->
+					
+						
 						<div class="single-product">
 							<div class="product-img">
 								<a href="product_details.php">
@@ -425,8 +423,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 								</div>
 							</div>
 						</div>
-						<!-- End Single Product -->
-						<!-- Start Single Product -->
+				
+						
 						<div class="single-product">
 							<div class="product-img">
 								<a href="product_details.php">
@@ -451,12 +449,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 								</div>
 							</div>
 						</div>
-						<!-- End Single Product -->
+						
+						
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- End Most Popular Area -->
 
 	<!-- Modal -->

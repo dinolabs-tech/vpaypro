@@ -181,7 +181,7 @@ $result_new_product = $conn->query($sql_new_product);
 										<h3><a href="product_details.php?id=<?= $product['productid']; ?>"><?php echo $product['productname']; ?></a></h3>
 
 										<div class="product-price">
-											<span>$<?php echo $product['sellprice']; ?></span>
+											<span>&#8358; <?php echo $product['sellprice']; ?></span>
 										</div>
 
 									</div>
@@ -271,10 +271,10 @@ $result_new_product = $conn->query($sql_new_product);
 											<?php $discounted_value = ($product['discount'] / 100) * $product['sellprice'];
 													$discount = $product['sellprice'] - $discounted_value;
 											?>
-											<span class="discount-price">$<?php echo $discount; ?></span>
-											<span class="original-price"><i><small class="text-danger"><s>$<?php echo $product['sellprice']; ?></s></small></i></span>
+											<span class="discount-price">&#8358; <?php echo $discount; ?></span>
+											<span class="original-price"><i><small class="text-danger"><s>&#8358; <?php echo $product['sellprice']; ?></s></small></i></span>
 										<?php else: ?>
-											<p>$<?php echo $product['sellprice']; ?></p>
+											<p>&#8358; <?php echo $product['sellprice']; ?></p>
 										<?php endif; ?>
 									</div>
 								</div>
