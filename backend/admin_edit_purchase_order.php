@@ -139,7 +139,6 @@ $conn->close();
                           </select>
                         </div>
 
-                        <?php if ($purchaseOrder['status'] == 'Received') { ?>
                           <div class="col-12">
                             <h5 class="card-title">Order Items</h5>
                             <div id="order-items-container">
@@ -171,8 +170,6 @@ $conn->close();
                             </div>
                             <button type="button" class="btn btn-success btn-sm" id="add-item">Add Item</button>
                           </div>
-
-                        <?php } ?>
 
 
                         <div class="col-12 text-center">

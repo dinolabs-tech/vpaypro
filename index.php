@@ -269,7 +269,7 @@ $result_new_product = $conn->query($sql_new_product);
 										<div class="rating"><?php echo generate_stars($product['avg_rating']); ?></div>
 										<?php if ($product['discount'] > 0): ?>
 											<?php $discounted_value = ($product['discount'] / 100) * $product['sellprice'];
-													$discount = $product['sellprice'] - $discounted_value;
+											$discount = $product['sellprice'] - $discounted_value;
 											?>
 											<span class="discount-price">&#8358; <?php echo $discount; ?></span>
 											<span class="original-price"><i><small class="text-danger"><s>&#8358; <?php echo $product['sellprice']; ?></s></small></i></span>

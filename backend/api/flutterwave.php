@@ -1,7 +1,4 @@
 <?php
-// Enable error reporting for debugging
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 
 
 include '../database/db_connection.php';
@@ -60,7 +57,7 @@ if (!$amount || !is_numeric($amount) || $amount <= 0) {
 }
 
 // Get customer details from session (ensure session is started and populated)
-$customerId = $_SESSION['id'] ?? null;
+$customerId = $_SESSION['user_id'] ?? null;
 $customerEmail = $_SESSION['email'] ?? 'no-email@example.com'; // Provide a default or handle missing email
 $customerName = $_SESSION['name'] ?? 'Customer'; // Provide a default or handle missing name
 $customerPhone = $_SESSION['phone'] ?? ''; // Optional phone number
