@@ -172,7 +172,7 @@ $result_new_product = $conn->query($sql_new_product);
 													<a title="Compare" href="compare.php?add=<?php echo $product['productid']; ?>"><i class="ti-bar-chart-alt"></i><span>Compare</span></a>
 												</div>
 												<div class="product-action-2">
-													<a title="Add to Cart" href="cart.php?add=<?php echo $product['productid']; ?>" class="btn rounded">Add to Cart</a>
+													<a title="Add to Cart" href="online_store.php" class="btn rounded">Add to Cart</a>
 												</div>
 											<?php } ?>
 										</div>

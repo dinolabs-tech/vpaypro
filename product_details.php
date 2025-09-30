@@ -180,7 +180,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 										<a href="backend/index.php" class="btn rounded text-white">Add to cart</a>
 									<?php } else { ?>
 										<div class="add-to-cart">
-											<a href="cart.php?add=<?php echo htmlspecialchars($product['productid']); ?>" class="btn rounded text-white">Add to cart</a>
+											<a href="backend/online_store.php" class="btn rounded text-white">Add to cart</a>
 											<a href="wishlist.php?add=<?php echo htmlspecialchars($product['productid']); ?>" class="btn min rounded text-white"><i class="ti-heart"></i></a>
 											<a href="compare.php?add=<?php echo htmlspecialchars($product['productid']); ?>" class="btn min rounded text-white"><i class="fa fa-compress"></i></a>
 										</div>
