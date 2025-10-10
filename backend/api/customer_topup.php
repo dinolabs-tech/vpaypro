@@ -1,5 +1,8 @@
 <?php
+<<<<<<< HEAD
 
+=======
+>>>>>>> 605bfc311f4172e6b5396bd450f4df50af4fedf7
 
 include '../database/db_connection.php';
 session_start();
@@ -58,7 +61,11 @@ if ($transactionStatus === 'successful') {
         echo "Database error updating balance.";
         exit;
     }
+<<<<<<< HEAD
     // Use $_SESSION['id'] for updating the balance as it refers to the customer's primary key 'id'
+=======
+    // Use $_SESSION['user_id'] for updating the balance as it refers to the customer's primary key 'id'
+>>>>>>> 605bfc311f4172e6b5396bd450f4df50af4fedf7
     $stmt->bind_param('di', $transactionAmount, $_SESSION['user_id']);
     if (!$stmt->execute()) {
         error_log("MySQL Execute Error (update balance in customer_topup.php): " . $stmt->error);

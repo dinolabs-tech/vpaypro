@@ -136,7 +136,12 @@ $result = $conn->query($sql);
       <?php include('components/footer.php'); ?>
     </div>
   </div>
+<<<<<<< HEAD
   
+=======
+ 
+
+>>>>>>> 605bfc311f4172e6b5396bd450f4df50af4fedf7
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
   <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
@@ -225,9 +230,14 @@ $result = $conn->query($sql);
       });
     });
   </script>
+<<<<<<< HEAD
   
   <?php include('components/script.php'); ?>
   
+=======
+
+   <?php include('components/script.php'); ?>
+>>>>>>> 605bfc311f4172e6b5396bd450f4df50af4fedf7
 </body>
 
 </html>
