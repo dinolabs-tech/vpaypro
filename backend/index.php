@@ -42,7 +42,25 @@
                   </div>
                 <?php endif; ?>
 
-                <form method="post" action="index.php" class="row g-3 needs-validation" novalidate>
+                <?php if (isset($_GET['action']) && $_GET['action'] == 'verify_2fa'): ?>
+                    <div class="alert alert-info bg-info text-light border-0 alert-dismissible fade show" role="alert">
+                        <p>A verification code has been sent to <?php echo htmlspecialchars($_SESSION['2fa_email']); ?>. Please enter it below.</p>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    <form method="post" action="index.php?action=verify_2fa" class="row g-3 needs-validation" novalidate>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label>Verification Code<span>*</span></label>
+                                <input type="text" name="two_factor_code" placeholder="Enter 6-digit code" required="required" maxlength="6" class="form-control">
+                                <div class="invalid-feedback">Please enter your 2FA code.</div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary w-100" type="submit"><i class="bi bi-check-circle"></i> Verify 2FA</button>
+                        </div>
+                    </form>
+                <?php else: ?>
+                    <form method="post" action="index.php" class="row g-3 needs-validation" novalidate>
 
                   <div class="col-12">
                     <div class="input-group has-validation">
@@ -78,6 +96,7 @@
                     </p>
                   </div>
                 </form>
+                <?php endif; ?>
 
               </div>
             </div>

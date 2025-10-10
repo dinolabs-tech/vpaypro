@@ -136,8 +136,7 @@ $result = $conn->query($sql);
       <?php include('components/footer.php'); ?>
     </div>
   </div>
-  <?php include('components/script.php'); ?>
-
+  
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
   <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
@@ -226,6 +225,9 @@ $result = $conn->query($sql);
       });
     });
   </script>
+  
+  <?php include('components/script.php'); ?>
+  
 </body>
 
 </html>

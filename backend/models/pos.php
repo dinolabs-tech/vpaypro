@@ -290,7 +290,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
 
                 // -- EMAIL NOTIFICATION --
                 // After a successful transaction, fetch the customer's details to send a confirmation email.
-                $stmt = $conn->prepare("SELECT email, firstname, lastname FROM customers WHERE customer_id = ?");
+                $stmt = $conn->prepare("SELECT email, name FROM customers WHERE customer_id = ?");
                 $stmt->bind_param("s", $customer_id);
                 $stmt->execute();
                 $result = $stmt->get_result();
@@ -300,7 +300,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])) {
                 // Check if the customer has an email address before proceeding.
                 if ($customer_data && !empty($customer_data['email'])) {
                     $customer_email = $customer_data['email'];
-                    $customer_name_for_email = trim($customer_data['firstname'] . ' ' . $customer_data['lastname']);
+                    $customer_name_for_email = trim($customer_data['name']);
 
                     // Generate the HTML invoice to be included in the email body.
                     $invoice_for_email = generate_invoice($_SESSION['cart'], $transactionID, $customer_name_for_email, $taxRate, $taxAmount, $totalWithTax);

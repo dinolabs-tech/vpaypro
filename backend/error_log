@@ -1,0 +1,1028 @@
+[24-Sep-2025 11:37:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/backend/database_schema.php(3): require_once('/home/dinolabs/...')
+#2 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:38:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/backend/database_schema.php(3): require_once('/home/dinolabs/...')
+#2 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:17:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.login' doesn't exist in /home/dinolabs/public_html/vpaypro/backend/models/login.php:17
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/models/login.php(17): mysqli->prepare('SELECT id FROM ...')
+#1 /home/dinolabs/public_html/vpaypro/backend/index.php(1): include('/home/dinolabs/...')
+#2 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/models/login.php on line 17
+[24-Sep-2025 12:26:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.login' doesn't exist in /home/dinolabs/public_html/vpaypro/backend/models/login.php:17
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/models/login.php(17): mysqli->prepare('SELECT id FROM ...')
+#1 /home/dinolabs/public_html/vpaypro/backend/index.php(1): include('/home/dinolabs/...')
+#2 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/models/login.php on line 17
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 36
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 36
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 36
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 54
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 54
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 122
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 122
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 170
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 170
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 196
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 196
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 213
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 213
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 222
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 222
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 36
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 38
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 47
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 49
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "staffname" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 52
+[24-Sep-2025 20:28:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 52
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 70
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 72
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "staffname" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 75
+[24-Sep-2025 20:28:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 75
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 78
+[24-Sep-2025 20:28:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 78
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 89
+[24-Sep-2025 20:28:22 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 91
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 36
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 36
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 36
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 54
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 54
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 122
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 122
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 170
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 170
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 196
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 196
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 213
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 213
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 222
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 222
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 36
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 38
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 47
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 49
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "staffname" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 52
+[24-Sep-2025 20:28:23 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 52
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 70
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 72
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "staffname" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 75
+[24-Sep-2025 20:28:23 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 75
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 78
+[24-Sep-2025 20:28:23 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 78
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 89
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 91
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 36
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 36
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 36
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 54
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 54
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 122
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 122
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 170
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 170
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 196
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 196
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 213
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 213
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 222
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 222
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 36
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 38
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 47
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 49
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "staffname" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 52
+[24-Sep-2025 20:28:23 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 52
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 70
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 72
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "staffname" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 75
+[24-Sep-2025 20:28:23 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 75
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 78
+[24-Sep-2025 20:28:23 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 78
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 89
+[24-Sep-2025 20:28:23 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 91
+[26-Sep-2025 22:00:15 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:00:15 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:00:34 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:00:34 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:00:34 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:00:34 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:00:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:00:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:00:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:00:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:00:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:00:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:03 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:03 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:03 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:03 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:03 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:03 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:47 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:47 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:47 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:47 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:47 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:47 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:47 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:03:47 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:02 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:02 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:02 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:02 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:02 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:02 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:02 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:02 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:02 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:02 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:15 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:15 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:15 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:15 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:15 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:15 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:15 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:15 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:52 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:52 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:52 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:52 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:52 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:52 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:52 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:52 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:52 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:04:52 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:05:08 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:05:08 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:05:08 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:05:08 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:05:08 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:05:08 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:05:08 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:05:08 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:05:08 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:05:08 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:05:08 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[26-Sep-2025 22:05:08 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 09:57:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 09:57:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 09:57:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 09:57:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 09:57:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 09:57:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 09:57:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 09:57:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 09:57:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 09:57:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 09:57:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 09:57:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:22 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:22 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:22 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:22 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:22 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:22 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:22 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:29 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:29 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:29 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:29 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:29 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:29 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:29 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:29 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:29 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:29 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:29 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:29 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:12:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:01 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:01 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:01 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:01 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:01 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:05 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:05 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:05 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:05 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:12 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:12 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:15 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:15 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:42 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:13:42 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:14:23 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:14:23 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:14:23 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:14:23 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:18:18 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:18:18 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:18:18 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:18:18 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:18:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:18:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:18:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:18:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:18:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:18:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:02 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:02 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:02 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:02 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:02 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:02 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:02 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:02 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:03 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:03 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:03 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:03 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:03 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:03 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:03 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:03 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:39 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:39 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:39 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:39 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:39 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:19:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'clark' for key 'customers.email' in /home/dinolabs/public_html/vpaypro/backend/customer_register.php:40
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/customer_register.php(40): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/customer_register.php on line 40
+[27-Sep-2025 10:20:11 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:11 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:11 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:11 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:11 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:11 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:11 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:20:54 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:23:39 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:24:57 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:12 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:36 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:25:41 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:14 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:26:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:19 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:38 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:27:46 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[27-Sep-2025 10:56:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Fashion ' for key 'categories.name' in /home/dinolabs/public_html/vpaypro/backend/models/admin_categories.php:31
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/models/admin_categories.php(31): mysqli_stmt->execute()
+#1 /home/dinolabs/public_html/vpaypro/backend/admin_categories.php(2): include('/home/dinolabs/...')
+#2 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/models/admin_categories.php on line 31
+[27-Sep-2025 10:58:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'Home deco' for key 'categories.name' in /home/dinolabs/public_html/vpaypro/backend/models/admin_categories.php:31
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/models/admin_categories.php(31): mysqli_stmt->execute()
+#1 /home/dinolabs/public_html/vpaypro/backend/admin_categories.php(2): include('/home/dinolabs/...')
+#2 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/models/admin_categories.php on line 31
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 36
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 36
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 36
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 45
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 54
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 54
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 81
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 104
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 113
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 122
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 122
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 138
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 147
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 170
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 170
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 187
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 196
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 196
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 213
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 213
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 222
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/sidebar.php on line 222
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 36
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 38
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 47
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 49
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "staffname" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 52
+[27-Sep-2025 13:41:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 52
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 70
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 72
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "staffname" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 75
+[27-Sep-2025 13:41:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 75
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 78
+[27-Sep-2025 13:41:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 78
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 89
+[27-Sep-2025 13:41:05 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/components/navbar.php on line 91
+[28-Sep-2025 14:36:31 UTC] PHP Warning:  Undefined array key "role" in /home/dinolabs/public_html/vpaypro/backend/supplier_dashboard.php on line 8
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:00:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[28-Sep-2025 16:14:11 UTC] PHP Warning:  Undefined variable $country in /home/dinolabs/public_html/vpaypro/backend/supplier_profile.php on line 183
+[28-Sep-2025 16:14:11 UTC] PHP Warning:  Undefined variable $state in /home/dinolabs/public_html/vpaypro/backend/supplier_profile.php on line 190
+[29-Sep-2025 09:51:41 UTC] PHP Warning:  Undefined variable $country in /home/dinolabs/public_html/vpaypro/backend/supplier_profile.php on line 183
+[29-Sep-2025 09:51:41 UTC] PHP Warning:  Undefined variable $state in /home/dinolabs/public_html/vpaypro/backend/supplier_profile.php on line 190
+[29-Sep-2025 09:51:54 UTC] PHP Warning:  Undefined variable $country in /home/dinolabs/public_html/vpaypro/backend/supplier_profile.php on line 183
+[29-Sep-2025 09:51:54 UTC] PHP Warning:  Undefined variable $state in /home/dinolabs/public_html/vpaypro/backend/supplier_profile.php on line 190
+[29-Sep-2025 10:30:49 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 76
+[29-Sep-2025 10:30:49 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 77
+[29-Sep-2025 10:30:49 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 78
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:38:28 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[29-Sep-2025 10:40:15 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 76
+[29-Sep-2025 10:40:15 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 77
+[29-Sep-2025 10:40:15 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 78
+[29-Sep-2025 10:43:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'firstname' in 'field list' in /home/dinolabs/public_html/vpaypro/backend/models/pos.php:293
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/models/pos.php(293): mysqli->prepare('SELECT email, f...')
+#1 /home/dinolabs/public_html/vpaypro/backend/pos.php(2): include('/home/dinolabs/...')
+#2 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/models/pos.php on line 293
+[30-Sep-2025 08:34:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'ayoalex668@gmail.com' for key 'customers.email' in /home/dinolabs/public_html/vpaypro/backend/customer_register.php:40
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/customer_register.php(40): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/customer_register.php on line 40
+[30-Sep-2025 08:35:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'ayoalex668@gmail.com' for key 'customers.email' in /home/dinolabs/public_html/vpaypro/backend/customer_register.php:40
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/customer_register.php(40): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/customer_register.php on line 40
+[30-Sep-2025 08:39:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'ayoibile9@gmail.com' for key 'customers.email' in /home/dinolabs/public_html/vpaypro/backend/customer_register.php:40
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/customer_register.php(40): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/customer_register.php on line 40
+[30-Sep-2025 09:04:29 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 76
+[30-Sep-2025 09:04:29 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 77
+[30-Sep-2025 09:04:29 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 78
+[30-Sep-2025 09:09:45 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 76
+[30-Sep-2025 09:09:45 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 77
+[30-Sep-2025 09:09:45 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 78
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:31:58 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Warning:  Undefined array key "staffid" in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:32:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/backend/users.php on line 161
+[30-Sep-2025 11:34:45 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 76
+[30-Sep-2025 11:34:45 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 77
+[30-Sep-2025 11:34:45 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 78
+[30-Sep-2025 11:43:57 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 76
+[30-Sep-2025 11:43:57 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 77
+[30-Sep-2025 11:43:57 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 78
+[30-Sep-2025 11:44:50 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 76
+[30-Sep-2025 11:44:50 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 77
+[30-Sep-2025 11:44:50 UTC] PHP Deprecated:  Constant FILTER_SANITIZE_STRING is deprecated in /home/dinolabs/public_html/vpaypro/backend/online_store.php on line 78

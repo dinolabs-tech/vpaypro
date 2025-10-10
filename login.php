@@ -1,65 +1,56 @@
 <?php
 session_start();
-require_once 'db_connect.php';
+require_once 'backend/database/db_connection.php';
+require_once 'backend/phpmailer/PHPMailerAutoload.php'; // For sending emails
+require_once 'backend/email_sender.php'; // Custom email sender functions
 
 // Initialize an error message variable
 $error_message = '';
 
-// Check if Superuser exists, if not create one
-$check_superuser = $conn->prepare("SELECT id FROM users WHERE role_id = '0' LIMIT 1");
-$check_superuser->execute();
-$check_superuser->store_result();
-
-
-if ($check_superuser->num_rows == 0) {
-    // Superuser doesn't exist, create one
-    $stmt_superuser = $conn->prepare("INSERT INTO users (first_name, last_name, email, username, password, role_id) VALUES (?, ?, ?, ?, ?, ?)");
-    $first_name = "Dinolabs";
-    $last_name = "Superuser";
-    $email = "enquiries@dinolabstech.com";
-    $username = "dinolabs";
-    $password = password_hash("dinolabs", PASSWORD_DEFAULT);
-    // $password = "dinolabs"; // Note: In production, you should hash this password
-    $role_id = 0;
-    $stmt_superuser->bind_param("ssssss", $first_name, $last_name, $email, $username, $password, $role_id);
-    $stmt_superuser->execute();
-    $stmt_superuser->close();
-}
-$check_superuser->close();
-
 // Check if the form has been submitted
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $username = $_POST['username'];
+    $email = $_POST['email']; // Assuming customers log in with email
     $password = $_POST['password'];
 
     // Use prepared statements to prevent SQL injection
-    $stmt = $conn->prepare("SELECT * FROM users WHERE username = ?");
-    $stmt->bind_param("s", $username);
+    $stmt = $conn->prepare("SELECT * FROM customers WHERE email = ?");
+    $stmt->bind_param("s", $email);
     $stmt->execute();
     $result = $stmt->get_result();
 
     if ($result->num_rows == 1) {
-        $user = $result->fetch_assoc();
+        $customer = $result->fetch_assoc();
         // Verify the submitted password against the hashed password from the database
-        if (password_verify($password, $user['password'])) {
-            // if ($user['password']) {
-            // Password is correct, set session variables
-            $_SESSION['user_id'] = $user['id'];
-            $_SESSION['username'] = $user['username'];
-            $_SESSION['first_name'] = $user['first_name'];
-            $_SESSION['last_name'] = $user['last_name'];
-           $_SESSION['role_id'] = $user['role_id'];
+        if (password_verify($password, $customer['password'])) {
+            // Password is correct, generate 2FA code
+            $two_factor_code = str_pad(random_int(0, 999999), 6, '0', STR_PAD_LEFT);
+            $two_factor_expires_at = date('Y-m-d H:i:s', strtotime('+10 minutes')); // Code valid for 10 minutes
 
-            // Redirect to the home page
-            header("Location: index.php");
+            // Store 2FA code and expiration in the database
+            $update_stmt = $conn->prepare("UPDATE customers SET two_factor_code = ?, two_factor_expires_at = ? WHERE id = ?");
+            $update_stmt->bind_param("ssi", $two_factor_code, $two_factor_expires_at, $customer['id']);
+            $update_stmt->execute();
+            $update_stmt->close();
+
+            // Send 2FA code to the customer's email
+            $subject = "Your 2FA Verification Code";
+            $body = "Your 2FA verification code is: <strong>" . $two_factor_code . "</strong>. It will expire in 10 minutes.";
+            sendEmail($customer['email'], $customer['name'], $subject, $body);
+
+            // Set session variable to indicate 2FA is pending
+            $_SESSION['2fa_customer_id'] = $customer['id'];
+            $_SESSION['2fa_email'] = $customer['email'];
+
+            // Redirect to backend login page with 2FA action
+            header("Location: backend/index.php?action=verify_2fa");
             exit;
         } else {
             // Set error message for incorrect password
             $error_message = "Incorrect password";
         }
     } else {
-        // Set error message for incorrect username
-        $error_message = "Incorrect username";
+        // Set error message for incorrect email
+        $error_message = "Incorrect email or password";
     }
     $stmt->close();
 }
@@ -111,8 +102,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 							<div class="row">
 								<div class="col-12">
 									<div class="form-group">
-										<label>Username<span>*</span></label>
-										<input type="text" name="username" placeholder="Enter Usename" required="required">
+										<label>Your Email<span>*</span></label>
+										<input type="email" name="email" placeholder="Enter Email" required="required">
 									</div>
 								</div>
 								<div class="col-12">
@@ -129,7 +120,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 									<div class="checkbox">
 										<label class="checkbox-inline" for="2"><input name="news" id="2" type="checkbox">Remember me</label>
 									</div>
-									<a href="#" class="lost-pass">Lost your password?</a>
+									<a href="forgot_password.php" class="lost-pass">Lost your password?</a>
 								</div>
 							</div>
 						</form>

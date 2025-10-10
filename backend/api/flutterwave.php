@@ -60,7 +60,7 @@ if (!$amount || !is_numeric($amount) || $amount <= 0) {
 }
 
 // Get customer details from session (ensure session is started and populated)
-$customerId = $_SESSION['id'] ?? null;
+$customerId = $_SESSION['user_id'] ?? null;
 $customerEmail = $_SESSION['email'] ?? 'no-email@example.com'; // Provide a default or handle missing email
 $customerName = $_SESSION['name'] ?? 'Customer'; // Provide a default or handle missing name
 $customerPhone = $_SESSION['phone'] ?? ''; // Optional phone number

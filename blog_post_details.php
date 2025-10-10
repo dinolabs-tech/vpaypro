@@ -4,7 +4,7 @@ include("db_connect.php");
 
 $post_id = $_GET["id"];
 
-$sql = "SELECT posts.*, users.username FROM posts INNER JOIN users ON posts.author_id = users.id WHERE posts.id = $post_id";
+$sql = "SELECT posts.*, login.username FROM posts INNER JOIN login ON posts.author_id = login.id WHERE posts.id = $post_id";
 $result = $conn->query($sql);
 
 if ($result->num_rows == 0) {

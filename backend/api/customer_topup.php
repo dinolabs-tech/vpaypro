@@ -1,7 +1,4 @@
 <?php
-// Enable error reporting for debugging
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 
 
 include '../database/db_connection.php';
@@ -21,7 +18,7 @@ if (!$customerId || !$transactionAmount || !$transactionRef || !$transactionStat
 }
 
 // Ensure the customer is logged in and the session ID matches the provided customer ID
-if (!isset($_SESSION['id']) || $_SESSION['id'] != $customerId) {
+if (!isset($_SESSION['user_id']) || $_SESSION['user_id'] != $customerId) {
     http_response_code(401); // Unauthorized
     echo "Error: User authentication failed or session expired.";
     exit;
@@ -35,12 +32,12 @@ if (!$stmt_get_customer_id) {
     echo "Database error retrieving customer ID.";
     exit;
 }
-$stmt_get_customer_id->bind_param('i', $_SESSION['id']);
+$stmt_get_customer_id->bind_param('i', $_SESSION['user_id']);
 $stmt_get_customer_id->execute();
 $result_get_customer_id = $stmt_get_customer_id->get_result();
 
 if ($result_get_customer_id->num_rows === 0) {
-    error_log("Customer ID not found for session ID: " . $_SESSION['id']);
+    error_log("Customer ID not found for session ID: " . $_SESSION['user_id']);
     http_response_code(404);
     echo "Customer not found.";
     $stmt_get_customer_id->close();
@@ -62,7 +59,7 @@ if ($transactionStatus === 'successful') {
         exit;
     }
     // Use $_SESSION['id'] for updating the balance as it refers to the customer's primary key 'id'
-    $stmt->bind_param('di', $transactionAmount, $_SESSION['id']);
+    $stmt->bind_param('di', $transactionAmount, $_SESSION['user_id']);
     if (!$stmt->execute()) {
         error_log("MySQL Execute Error (update balance in customer_topup.php): " . $stmt->error);
         http_response_code(500);

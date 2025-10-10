@@ -1,0 +1,370 @@
+[24-Sep-2025 11:14:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:15:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:18:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:20:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:22:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:22:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:27:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:27:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/database_schema.php(2): require_once('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:42:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:42:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:42:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:44:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:45:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:45:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/components/header.php(7): include('/home/dinolabs/...')
+#3 /home/dinolabs/public_html/vpaypro/index.php(62): require_once('/home/dinolabs/...')
+#4 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:45:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/components/header.php(7): include('/home/dinolabs/...')
+#3 /home/dinolabs/public_html/vpaypro/index.php(62): require_once('/home/dinolabs/...')
+#4 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:45:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 11:45:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:08:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:09:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:09:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:09:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:09:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:10:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:10:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:10:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:10:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:11:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:11:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:11:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/components/header.php(7): include('/home/dinolabs/...')
+#3 /home/dinolabs/public_html/vpaypro/index.php(62): require_once('/home/dinolabs/...')
+#4 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:11:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/components/header.php(7): include('/home/dinolabs/...')
+#3 /home/dinolabs/public_html/vpaypro/index.php(62): require_once('/home/dinolabs/...')
+#4 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:11:51 UTC] PHP Parse error:  syntax error, unexpected identifier "variables" in /home/dinolabs/public_html/vpaypro/index.php on line 6
+[24-Sep-2025 12:11:56 UTC] PHP Parse error:  syntax error, unexpected identifier "variables" in /home/dinolabs/public_html/vpaypro/index.php on line 6
+[24-Sep-2025 12:12:38 UTC] PHP Parse error:  syntax error, unexpected identifier "variables" in /home/dinolabs/public_html/vpaypro/index.php on line 6
+[24-Sep-2025 12:12:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:13:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/db_connect.php(3): include('/home/dinolabs/...')
+#2 /home/dinolabs/public_html/vpaypro/index.php(3): include('/home/dinolabs/...')
+#3 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:13:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php:20
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php(20): mysqli->__construct('localhost', 'root', '')
+#1 /home/dinolabs/public_html/vpaypro/index.php(4): include('/home/dinolabs/...')
+#2 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/backend/database/db_connection.php on line 20
+[24-Sep-2025 12:15:07 UTC] PHP Warning:  Undefined variable $conn in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:15:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dinolabs/public_html/vpaypro/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:15:11 UTC] PHP Warning:  Undefined variable $conn in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:15:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dinolabs/public_html/vpaypro/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:15:29 UTC] PHP Warning:  Undefined variable $conn in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dinolabs/public_html/vpaypro/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:16:21 UTC] PHP Warning:  Undefined variable $conn in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:16:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dinolabs/public_html/vpaypro/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:16:25 UTC] PHP Warning:  Undefined variable $conn in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:16:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dinolabs/public_html/vpaypro/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:17:27 UTC] PHP Warning:  Undefined variable $conn in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:17:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dinolabs/public_html/vpaypro/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:17:35 UTC] PHP Warning:  Undefined variable $conn in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:17:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dinolabs/public_html/vpaypro/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:24:40 UTC] PHP Warning:  Undefined variable $conn in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:24:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dinolabs/public_html/vpaypro/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:24:45 UTC] PHP Warning:  Undefined variable $conn in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:24:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dinolabs/public_html/vpaypro/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:30:13 UTC] PHP Warning:  Undefined variable $conn in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:30:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dinolabs/public_html/vpaypro/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:47:31 UTC] PHP Warning:  Undefined variable $conn in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:47:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dinolabs/public_html/vpaypro/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:50:33 UTC] PHP Warning:  Undefined variable $conn in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[24-Sep-2025 12:50:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/dinolabs/public_html/vpaypro/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/index.php on line 13
+[27-Sep-2025 10:54:53 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/product_details.php on line 188
+[27-Sep-2025 10:54:54 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/product_details.php on line 188
+[27-Sep-2025 11:05:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/product_details.php on line 188
+[27-Sep-2025 11:05:13 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/product_details.php on line 188
+[27-Sep-2025 11:06:54 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/product_details.php on line 188
+[27-Sep-2025 11:06:54 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/product_details.php on line 188
+[27-Sep-2025 11:08:02 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/product_details.php on line 188
+[27-Sep-2025 11:08:02 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/product_details.php on line 188
+[27-Sep-2025 11:08:29 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/product_details.php on line 188
+[27-Sep-2025 11:08:30 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/product_details.php on line 188
+[29-Sep-2025 09:50:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.products' doesn't exist in /home/dinolabs/public_html/vpaypro/product_category.php:21
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/product_category.php(21): mysqli->query('SELECT p.*, pi....')
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/product_category.php on line 21
+[29-Sep-2025 09:50:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.products' doesn't exist in /home/dinolabs/public_html/vpaypro/product_category.php:21
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/product_category.php(21): mysqli->query('SELECT p.*, pi....')
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/product_category.php on line 21
+[29-Sep-2025 09:51:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.products' doesn't exist in /home/dinolabs/public_html/vpaypro/product_category.php:21
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/product_category.php(21): mysqli->query('SELECT p.*, pi....')
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/product_category.php on line 21
+[29-Sep-2025 10:37:00 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/product_details.php on line 188
+[29-Sep-2025 10:37:01 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/dinolabs/public_html/vpaypro/product_details.php on line 188
+[30-Sep-2025 08:52:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.cart' doesn't exist in /home/dinolabs/public_html/vpaypro/cart.php:19
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/cart.php(19): mysqli->prepare('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/cart.php on line 19
+[30-Sep-2025 08:53:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.cart' doesn't exist in /home/dinolabs/public_html/vpaypro/cart.php:19
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/cart.php(19): mysqli->prepare('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/cart.php on line 19
+[30-Sep-2025 08:53:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.cart' doesn't exist in /home/dinolabs/public_html/vpaypro/cart.php:19
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/cart.php(19): mysqli->prepare('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/cart.php on line 19
+[30-Sep-2025 08:54:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.cart' doesn't exist in /home/dinolabs/public_html/vpaypro/cart.php:19
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/cart.php(19): mysqli->prepare('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/cart.php on line 19
+[30-Sep-2025 08:54:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.cart' doesn't exist in /home/dinolabs/public_html/vpaypro/cart.php:19
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/cart.php(19): mysqli->prepare('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/cart.php on line 19
+[30-Sep-2025 08:54:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.cart' doesn't exist in /home/dinolabs/public_html/vpaypro/cart.php:19
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/cart.php(19): mysqli->prepare('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/cart.php on line 19
+[30-Sep-2025 08:55:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.cart' doesn't exist in /home/dinolabs/public_html/vpaypro/cart.php:19
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/cart.php(19): mysqli->prepare('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/cart.php on line 19
+[30-Sep-2025 14:45:06 UTC] PHP Warning:  Undefined array key "category" in /home/dinolabs/public_html/vpaypro/save_post.php on line 13
+[01-Oct-2025 15:39:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.cart' doesn't exist in /home/dinolabs/public_html/vpaypro/cart.php:19
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/cart.php(19): mysqli->prepare('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/cart.php on line 19
+[01-Oct-2025 15:39:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'dinolabs_vpaypro.cart' doesn't exist in /home/dinolabs/public_html/vpaypro/cart.php:19
+Stack trace:
+#0 /home/dinolabs/public_html/vpaypro/cart.php(19): mysqli->prepare('SELECT * FROM c...')
+#1 {main}
+  thrown in /home/dinolabs/public_html/vpaypro/cart.php on line 19
