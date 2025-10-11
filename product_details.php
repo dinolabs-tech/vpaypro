@@ -118,11 +118,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 								<div class="flexslider-thumbnails">
 									<ul class="slides">
 										<?php if (!empty($product['image_url'])): ?>
-
-											<li data-thumb="backend/<?php echo htmlspecialchars($product['image_url']); ?>">
-												<img class="rounded img-fluid" src="backend/<?php echo htmlspecialchars($product['image_url']); ?>" alt="<?php echo htmlspecialchars($product['productname']); ?>" style="height:50vh; width:100vw;">
-											</li>
-
+											
+												<li data-thumb="backend/<?php echo htmlspecialchars($product['image_url']); ?>">
+													<img class="rounded img-fluid" src="backend/<?php echo htmlspecialchars($product['image_url']); ?>" alt="<?php echo htmlspecialchars($product['productname']); ?>" style="height:50vh; width:100vw;">
+												</li>
+											
 										<?php else: ?>
 											<li data-thumb="assets/img/default.jpg">
 												<img class="rounded" src="assets/img/default.jpg" alt="Default Image">
@@ -142,24 +142,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 									<div class="rating-main">
 										<?php echo generate_stars($product['avg_rating']); ?>
 									</div>
-									<?php if ($product['discount'] > 0): ?>
+									<?php if ($product['discount'] > 0 ): ?>
 										<p><strong>Price: <span class="discount">
-<<<<<<< HEAD
 										<?php $discounted_value = ($product['discount'] / 100) * $product['sellprice'];
 										$discount = $product['sellprice'] - $discounted_value;
 										?>	
 										&#8358; <?php echo htmlspecialchars($discount); ?></strong></span> <small><s class="original-price">&#8358; <?php echo htmlspecialchars($product['sellprice']); ?></s></small></p>
-=======
-													<?php $discounted_value = ($product['discount'] / 100) * $product['sellprice'];
-													$discount = $product['sellprice'] - $discounted_value;
-													?>
-													&#8358; <?php echo htmlspecialchars($discount); ?></strong></span> <small><s class="original-price">&#8358; <?php echo htmlspecialchars($product['sellprice']); ?></s></small></p>
->>>>>>> 605bfc311f4172e6b5396bd450f4df50af4fedf7
 										<?php
 										$percentage_reduction = $product['discount'];
 										echo '<p class="percentage-reduction"><strong>' . round($percentage_reduction) . '% off</strong></p>';
 										?>
-
+										
 									<?php else: ?>
 										<p><strong>Price:</strong> &#8358; <?php echo htmlspecialchars($product['sellprice']); ?></p>
 									<?php endif; ?>
@@ -185,21 +178,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 								<div class="product-buy">
 									<?php if (!isset($_SESSION['user_id'])) { ?>
 										<a href="backend/index.php" class="btn rounded text-white">Add to cart</a>
-<<<<<<< HEAD
 										<?php } else { ?>
 									<div class="add-to-cart">
 										<a href="backend/online_store.php" class="btn rounded text-white">Add to cart</a>
 										<a href="wishlist.php?add=<?php echo htmlspecialchars($product['productid']); ?>" class="btn min rounded text-white"><i class="ti-heart"></i></a>
 										<a href="compare.php?add=<?php echo htmlspecialchars($product['productid']); ?>" class="btn min rounded text-white"><i class="fa fa-compress"></i></a>
 									</div>
-=======
-									<?php } else { ?>
-										<div class="add-to-cart">
-											<a href="backend/online_store.php" class="btn rounded text-white">Add to cart</a>
-											<a href="wishlist.php?add=<?php echo htmlspecialchars($product['productid']); ?>" class="btn min rounded text-white"><i class="ti-heart"></i></a>
-											<a href="compare.php?add=<?php echo htmlspecialchars($product['productid']); ?>" class="btn min rounded text-white"><i class="fa fa-compress"></i></a>
-										</div>
->>>>>>> 605bfc311f4172e6b5396bd450f4df50af4fedf7
 									<?php } ?>
 									<p class="cat">Category :<a href="#"><?php echo htmlspecialchars($product['category_name']); ?></a></p>
 									<p class="availability">Availability : <?php echo htmlspecialchars($product['quantity']); ?></p>
@@ -228,7 +212,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 													<div class="single-des">
 														<p><?php echo htmlspecialchars($product['description']); ?></p>
 													</div>
-
+				
 												</div>
 											</div>
 										</div>
@@ -346,7 +330,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 	<!--/ End Shop Single -->
 
 	<!-- Start Most Popular -->
-<<<<<<< HEAD
 	<!--<div class="product-area most-popular related-product section">-->
 	<!--	<div class="container">-->
 	<!--		<div class="row">-->
@@ -474,134 +457,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit_review'])) {
 	<!--		</div>-->
 	<!--	</div>-->
 	<!--</div>-->
-=======
-	<!-- <div class="product-area most-popular related-product section">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="section-title">
-						<h2>Related Products</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-12">
-					<div class="owl-carousel popular-slider">
-
-						
-						<div class="single-product">
-							<div class="product-img">
-								<a href="product_details.php">
-									<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-									<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-									<span class="out-of-stock">Hot</span>
-								</a>
-								<div class="button-head">
-									<div class="product-action">
-										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-										<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-										<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
-									</div>
-									<div class="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
-									</div>
-								</div>
-							</div>
-							<div class="product-content">
-								<h3><a href="product_details.php">Black Sunglass For Women</a></h3>
-								<div class="product-price">
-									<span class="old">$60.00</span>
-									<span>$50.00</span>
-								</div>
-							</div>
-						</div>
-						
-						
-						<div class="single-product">
-							<div class="product-img">
-								<a href="product_details.php">
-									<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-									<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-								</a>
-								<div class="button-head">
-									<div class="product-action">
-										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-										<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-										<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
-									</div>
-									<div class="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
-									</div>
-								</div>
-							</div>
-							<div class="product-content">
-								<h3><a href="product_details.php">Women Hot Collection</a></h3>
-								<div class="product-price">
-									<span>$50.00</span>
-								</div>
-							</div>
-						</div>
-					
-						
-						<div class="single-product">
-							<div class="product-img">
-								<a href="product_details.php">
-									<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-									<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-									<span class="new">New</span>
-								</a>
-								<div class="button-head">
-									<div class="product-action">
-										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-										<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-										<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
-									</div>
-									<div class="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
-									</div>
-								</div>
-							</div>
-							<div class="product-content">
-								<h3><a href="product_details.php">Awesome Pink Show</a></h3>
-								<div class="product-price">
-									<span>$50.00</span>
-								</div>
-							</div>
-						</div>
-				
-						
-						<div class="single-product">
-							<div class="product-img">
-								<a href="product_details.php">
-									<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-									<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-								</a>
-								<div class="button-head">
-									<div class="product-action">
-										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-										<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-										<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
-									</div>
-									<div class="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
-									</div>
-								</div>
-							</div>
-							<div class="product-content">
-								<h3><a href="product_details.php">Awesome Bags Collection</a></h3>
-								<div class="product-price">
-									<span>$50.00</span>
-								</div>
-							</div>
-						</div>
-						
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
->>>>>>> 605bfc311f4172e6b5396bd450f4df50af4fedf7
 	<!-- End Most Popular Area -->
 
 	<!-- Modal -->

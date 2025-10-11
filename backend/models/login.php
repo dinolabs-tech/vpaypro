@@ -5,7 +5,6 @@ $login_error = '';
 // Include AuditLog model and instantiate
 include_once './database/db_connection.php'; // Ensure db connection is included
 include_once 'models/audit_logs.php'; // Include the AuditLog model
-require_once '../backend/phpmailer/PHPMailerAutoload.php'; // For sending emails
 require_once '../backend/email_sender.php'; // Custom email sender functions
 // session_start();
 $auditLogModel = new AuditLog($conn); // Instantiate the AuditLog class

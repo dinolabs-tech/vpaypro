@@ -2,7 +2,11 @@
 // models/audit_logs.php
 
 include './database/db_connection.php';
-session_start(); // Start the session
+ // Start the session if not already started
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
 
 class AuditLog
 {

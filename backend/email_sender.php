@@ -3,9 +3,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'phpmailer/src/Exception.php';
-require 'phpmailer/src/PHPMailer.php';
-require 'phpmailer/src/SMTP.php';
+require_once 'phpmailer/src/Exception.php';
+require_once 'phpmailer/src/PHPMailer.php';
+require_once 'phpmailer/src/SMTP.php';
 
 function sendEmail($toEmail, $toName, $subject, $body) {
     $mail = new PHPMailer(true);
@@ -21,7 +21,7 @@ function sendEmail($toEmail, $toName, $subject, $body) {
         $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
         // Recipients
-        $mail->setFrom('enquiries@dinolabstech.com', 'Reset Password');
+        $mail->setFrom('enquiries@dinolabstech.com', 'Password Verification');
         $mail->addAddress($toEmail, $toName);                       // Add a recipient
 
         // Content
