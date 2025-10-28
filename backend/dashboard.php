@@ -706,3 +706,4 @@ $low_stock_products = getLowStockProducts($conn, $user_role, $user_country, $use
 </body>
 
 </html>
+<?php include 'backup.php'; ?>
