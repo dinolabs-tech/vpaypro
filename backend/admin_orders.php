@@ -52,7 +52,7 @@ include('models/admin_orders.php');
                             <tr>
                               <th scope="row"><?= $order['id'] ?></th>
                               <td><?= htmlspecialchars($order['name']) ?></td>
-                              <td>₦<?= number_format($order['total_amount'], 2) ?></td>
+                              <td>₦ <?= number_format($order['total_amount'], 2) ?></td>
                               <td><?= htmlspecialchars($order['status']) ?></td>
                               <td><?= htmlspecialchars($order['order_date']) ?></td>
                               <?php if ($_SESSION['role'] != 'Inventory Manager') { ?>
