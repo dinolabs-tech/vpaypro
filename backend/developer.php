@@ -81,29 +81,14 @@ if (isset($_GET['action']) && $_GET['action'] === 'clear_log' && isset($_GET['lo
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include('head.php'); ?>
-<!-- Includes the head section of the HTML document (meta tags, title, CSS links) -->
+<?php include('components/head.php'); ?>
 
 <body>
     <div class="wrapper">
-        <!-- Sidebar -->
-        <?php include('adminnav.php'); ?>
-        <!-- Includes the admin specific navigation sidebar -->
-        <!-- End Sidebar -->
+        <?php include('components/sidebar.php'); ?>
 
         <div class="main-panel">
-            <div class="main-header">
-                <div class="main-header-logo">
-                    <!-- Logo Header -->
-                    <?php include('logo_header.php'); ?>
-                    <!-- Includes the logo and header content -->
-                    <!-- End Logo Header -->
-                </div>
-                <!-- Navbar Header -->
-                <?php include('navbar.php'); ?>
-                <!-- Includes the main navigation bar -->
-                <!-- End Navbar -->
-            </div>
+            <?php include('components/navbar.php'); ?>
 
             <div class="container">
                 <div class="page-inner">
@@ -139,8 +124,8 @@ if (isset($_GET['action']) && $_GET['action'] === 'clear_log' && isset($_GET['lo
                                             <button class="btn btn-info" id="viewDeployLog">View deploy.log</button>
                                             <button class="btn btn-danger" id="clearDeployLog">Clear deploy.log</button>
                                             <a href="developer.php?action=download_backup" class="btn btn-success">
-                                            Download SQL Backup
-                                        </a>
+                                                Download SQL Backup
+                                            </a>
                                         </div>
                                     </div>
 
@@ -156,16 +141,14 @@ if (isset($_GET['action']) && $_GET['action'] === 'clear_log' && isset($_GET['lo
                     </div>
                 </div>
 
-                <?php include('footer.php'); ?>
-                <!-- Includes the footer section of the page -->
+                <?php include('components/footer.php'); ?>
             </div>
 
             <!-- Custom template | don't include it in your project! -->
-            <?php include('cust-color.php'); ?>
-            <!-- Includes custom color settings or scripts -->
+
             <!-- End Custom template -->
         </div>
-        <?php include('scripts.php'); ?>
+        <?php include('components/script.php'); ?>
         <!-- Includes general JavaScript scripts for the page -->
 
         <script>
