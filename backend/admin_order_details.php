@@ -35,7 +35,7 @@ include('models/admin_order_details.php');
                     <div class="row">
                       <div class="col-md-6">
                         <h6><strong>Customer Details</strong></h6>
-                        <p><strong>ID:</strong> <?= htmlspecialchars($order['customer_id']) ?></p>
+                        <!-- <p><strong>ID:</strong> <?= htmlspecialchars($order['customer_id']) ?></p> -->
                         <p><strong>Name:</strong> <?= htmlspecialchars($customer['name']) ?></p>
                         <p><strong>Email:</strong> <?= htmlspecialchars($customer['email']) ?></p>
                         <p><strong>Phone:</strong> <?= htmlspecialchars($customer['phone']) ?></p>
