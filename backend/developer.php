@@ -1,5 +1,5 @@
 <?php
-include('components/superuser_logic.php');
+session_start();
 
 // Check if the user is logged in and is a super user
 // if ($_SESSION['role'] != 'Superuser') {
