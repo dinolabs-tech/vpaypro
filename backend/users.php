@@ -61,17 +61,21 @@
 
                         <div class="col-md-6">
                           <select class="form-control form-select" name="role" id="role">
+
                             <?php
-                            if (isset($staffToEdit) && $staffToEdit['role'] == 'Superuser') { ?>
+                            $currentUserRole = $_SESSION['role']; // The logged-in user role
+                            if ($currentUserRole == 'Superuser') { ?>
                               <option value="CEO" <?= isset($staffToEdit) && $staffToEdit['role'] == 'CEO' ? 'selected' : '' ?>>CEO</option>
                             <?php } ?>
+
                             <option value="Administrator" <?= isset($staffToEdit) && $staffToEdit['role'] == 'Administrator' ? 'selected' : '' ?>>Administrator</option>
                             <option value="Sales Manager" <?= isset($staffToEdit) && $staffToEdit['role'] == 'Sales Manager' ? 'selected' : '' ?>>Sales Manager</option>
                             <option value="Inventory Manager" <?= isset($staffToEdit) && $staffToEdit['role'] == 'Inventory Manager' ? 'selected' : '' ?>>Inventory Manager</option>
                             <option value="Cashier" <?= isset($staffToEdit) && $staffToEdit['role'] == 'Cashier' ? 'selected' : '' ?>>Sales Associate</option>
                             <option value="Delivery" <?= isset($staffToEdit) && $staffToEdit['role'] == 'Delivery' ? 'selected' : '' ?>>Delivery Personnel</option>
-                            <!-- <option value="Supplier" <?= isset($staffToEdit) && $staffToEdit['role'] == 'Supplier' ? 'selected' : '' ?>>Supplier</option> -->
+
                           </select>
+
 
                         </div>
 
@@ -188,7 +192,7 @@
   </div>
   <?php include('components/script.php'); ?>
 
-   <script>
+  <script>
     // Basic script for form reset if needed
     document.addEventListener('DOMContentLoaded', function() {
       // You can add any other necessary JS here, but the dynamic population is removed.

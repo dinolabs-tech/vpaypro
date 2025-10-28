@@ -170,6 +170,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($country === '') $errors[] = 'Country is required.'; // Validate country
     if ($state === '') $errors[] = 'State/Province is required.'; // Validate state
 
+    if ($_POST['role'] == 'CEO' && $currentUserRole != 'Superuser') {
+        die("Access Denied: Only Superusers can assign CEO role.");
+    }
+
+
     // Password validation only for new users or if password is provided during edit
     $isEditMode = isset($_POST['edit_id']) && is_numeric($_POST['edit_id']);
     if (!$isEditMode || ($isEditMode && !empty($password))) {
@@ -232,7 +237,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $bind_params[] = &$queryParams[$key];
         }
         call_user_func_array([$stmt, 'bind_param'], $bind_params);
-
     } else {
         // Updated SQL to include branch_id, country, and state
         $sql = "INSERT INTO login (staffname, username, password, role, branch_id, country, state) VALUES (?, ?, ?, ?, ?, ?, ?)";
@@ -268,4 +272,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 $conn->close();
-?>
