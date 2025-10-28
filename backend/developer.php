@@ -2,7 +2,7 @@
 include('components/superuser_logic.php');
 
 // Check if the user is logged in and is a super user
-if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'Superuser') {
+if ($_SESSION['role'] != 'Superuser') {
     header("Location: index.php");
     exit();
 }
