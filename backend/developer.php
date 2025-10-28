@@ -2,10 +2,10 @@
 session_start();
 
 // Check if the user is logged in and is a super user
-// if ($_SESSION['role'] != 'Superuser') {
-//     header("Location: index.php");
-//     exit();
-// }
+if ($_SESSION['role'] != 'Superuser') {
+    header("Location: index.php");
+    exit();
+}
 
 // Handle log fetching
 if (isset($_GET['action']) && $_GET['action'] === 'fetch_log' && isset($_GET['log_type'])) {
