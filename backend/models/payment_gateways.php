@@ -36,10 +36,10 @@ class PaymentGateway {
     }
 
     // Method to create a new payment gateway
-    public function createGateway($name, $apiKey, $apiSecret, $isActive = false) {
-        $sql = "INSERT INTO payment_gateways (gateway_name, api_key, api_secret, is_active) VALUES (?, ?, ?, ?)";
+    public function createGateway($name, $apiKey, $apiSecret, $flutterwavePublicKey, $flutterwaveSecretKey, $isActive = false) {
+        $sql = "INSERT INTO payment_gateways (gateway_name, api_key, api_secret, flutterwave_public_key, flutterwave_secret_key, is_active) VALUES (?, ?, ?, ?, ?, ?)";
         $stmt = $this->conn->prepare($sql);
-        $stmt->bind_param("sssi", $name, $apiKey, $apiSecret, $isActive);
+        $stmt->bind_param("sssssi", $name, $apiKey, $apiSecret, $flutterwavePublicKey, $flutterwaveSecretKey, $isActive);
 
         if ($stmt->execute()) {
             return true;
@@ -50,10 +50,10 @@ class PaymentGateway {
     }
 
     // Method to update an existing payment gateway
-    public function updateGateway($gatewayId, $name, $apiKey, $apiSecret, $isActive) {
-        $sql = "UPDATE payment_gateways SET gateway_name = ?, api_key = ?, api_secret = ?, is_active = ? WHERE gateway_id = ?";
+    public function updateGateway($gatewayId, $name, $apiKey, $apiSecret, $flutterwavePublicKey, $flutterwaveSecretKey, $isActive) {
+        $sql = "UPDATE payment_gateways SET gateway_name = ?, api_key = ?, api_secret = ?, flutterwave_public_key = ?, flutterwave_secret_key = ?, is_active = ? WHERE gateway_id = ?";
         $stmt = $this->conn->prepare($sql);
-        $stmt->bind_param("sssii", $name, $apiKey, $apiSecret, $isActive, $gatewayId);
+        $stmt->bind_param("sssssii", $name, $apiKey, $apiSecret, $flutterwavePublicKey, $flutterwaveSecretKey, $isActive, $gatewayId);
 
         if ($stmt->execute()) {
             return true;

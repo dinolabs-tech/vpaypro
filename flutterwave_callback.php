@@ -4,15 +4,13 @@ require_once 'db_connect.php';
 require_once 'cart_functions.php'; // To clear the cart
 require_once 'functions.php'; // For any utility functions
 
-// Fetch Flutterwave API secret key
+// Fetch Flutterwave API secret key from payment_gateways table
 $flutterwave_secret_key = '';
-$stmt = $conn->prepare("SELECT setting_value FROM payment_settings WHERE setting_name = ?");
-$secret_key_name = 'flutterwave_secret_key';
-$stmt->bind_param('s', $secret_key_name);
+$stmt = $conn->prepare("SELECT flutterwave_secret_key FROM payment_gateways WHERE gateway_name = 'flutterwave' AND is_active = 1 LIMIT 1");
 $stmt->execute();
 $result = $stmt->get_result();
 if ($row = $result->fetch_assoc()) {
-    $flutterwave_secret_key = $row['setting_value'];
+    $flutterwave_secret_key = $row['flutterwave_secret_key'];
 }
 $stmt->close();
 

@@ -11,7 +11,7 @@ session_start();
 
 // Get payment gateway details
 $gatewayName = "flutterwave";
-$sql = "SELECT api_key FROM payment_gateways WHERE gateway_name = ? AND is_active = 1";
+$sql = "SELECT flutterwave_public_key, flutterwave_secret_key FROM payment_gateways WHERE gateway_name = ? AND is_active = 1";
 $stmt = $conn->prepare($sql);
 
 if (!$stmt) {
@@ -34,12 +34,13 @@ if ($result->num_rows === 0) {
 }
 
 $gateway = $result->fetch_assoc();
-$flutterwavePublicKey = $gateway['api_key'] ?? null;
+$flutterwavePublicKey = $gateway['flutterwave_public_key'] ?? null;
+$flutterwaveSecretKey = $gateway['flutterwave_secret_key'] ?? null; // Fetch secret key as well
 
-if (empty($flutterwavePublicKey)) {
-    error_log("API Key Not Found for Gateway: " . $gatewayName);
+if (empty($flutterwavePublicKey) || empty($flutterwaveSecretKey)) {
+    error_log("Flutterwave Public or Secret Key Not Found for Gateway: " . $gatewayName);
     http_response_code(500);
-    echo "API key not found for Flutterwave.";
+    echo "Flutterwave public or secret key not found.";
     $stmt->close();
     exit;
 }

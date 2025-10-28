@@ -16,46 +16,9 @@ if (!isset($_SESSION['username']) || ($_SESSION['role_id'] != 1 && $_SESSION['ro
 }
 
 
-$flutterwave_public_key = '';
-$flutterwave_secret_key = '';
 $message = '';
-
-// Fetch existing settings
-$stmt = $conn->prepare("SELECT setting_name, setting_value FROM payment_settings WHERE setting_name IN (?, ?)");
-$public_key_name = 'flutterwave_public_key';
-$secret_key_name = 'flutterwave_secret_key';
-$stmt->bind_param('ss', $public_key_name, $secret_key_name);
-$stmt->execute();
-$result = $stmt->get_result();
-while ($row = $result->fetch_assoc()) {
-    if ($row['setting_name'] === 'flutterwave_public_key') {
-        $flutterwave_public_key = $row['setting_value'];
-    } elseif ($row['setting_name'] === 'flutterwave_secret_key') {
-        $flutterwave_secret_key = $row['setting_value'];
-    }
-}
-$stmt->close();
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $new_public_key = $_POST['flutterwave_public_key'] ?? '';
-    $new_secret_key = $_POST['flutterwave_secret_key'] ?? '';
-
-    // Update or insert public key
-    $stmt = $conn->prepare("INSERT INTO payment_settings (setting_name, setting_value) VALUES (?, ?) ON DUPLICATE KEY UPDATE setting_value = ?");
-    $stmt->bind_param('sss', $public_key_name, $new_public_key, $new_public_key);
-    $stmt->execute();
-    $stmt->close();
-
-    // Update or insert secret key
-    $stmt = $conn->prepare("INSERT INTO payment_settings (setting_name, setting_value) VALUES (?, ?) ON DUPLICATE KEY UPDATE setting_value = ?");
-    $stmt->bind_param('sss', $secret_key_name, $new_secret_key, $new_secret_key);
-    $stmt->execute();
-    $stmt->close();
-
-    $message = "Flutterwave settings updated successfully!";
-    $flutterwave_public_key = $new_public_key;
-    $flutterwave_secret_key = $new_secret_key;
-}
+// The Flutterwave settings are now managed in backend/payment_gateways.php
+// This file will no longer handle Flutterwave specific keys.
 ?>
 
 <!DOCTYPE html>
@@ -65,21 +28,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php include('components/header.php')?>
 
     <div class="container" style="margin-top: 100px;">
-        <h2>Flutterwave Payment Settings</h2>
+        <h2>Payment Settings</h2>
         <?php if ($message): ?>
             <div class="alert alert-success"><?php echo $message; ?></div>
         <?php endif; ?>
-        <form method="post" action="admin_payment_settings.php">
-            <div class="form-group">
-                <label for="flutterwave_public_key">Flutterwave Public Key</label>
-                <input type="text" class="form-control" id="flutterwave_public_key" name="flutterwave_public_key" value="<?php echo htmlspecialchars($flutterwave_public_key); ?>" required>
-            </div>
-            <div class="form-group">
-                <label for="flutterwave_secret_key">Flutterwave Secret Key</label>
-                <input type="text" class="form-control" id="flutterwave_secret_key" name="flutterwave_secret_key" value="<?php echo htmlspecialchars($flutterwave_secret_key); ?>" required>
-            </div>
-            <button type="submit" class="btn btn-primary rounded">Save Settings</button>
-        </form>
+        <p>Payment gateway settings are now managed in the <a href="payment_gateways.php">Payment Gateways</a> section.</p>
+        <!-- You can add other general payment settings here if needed -->
     </div>
 
     <?php include('components/footer.php')?>

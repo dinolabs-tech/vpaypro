@@ -16,9 +16,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['gateway_name'];
     $apiKey = $_POST['api_key'];
     $apiSecret = $_POST['api_secret'];
+    $flutterwavePublicKey = $_POST['flutterwave_public_key'];
+    $flutterwaveSecretKey = $_POST['flutterwave_secret_key'];
     $isActive = isset($_POST['is_active']) ? 1 : 0;
 
-    if ($paymentGatewayModel->createGateway($name, $apiKey, $apiSecret, $isActive)) {
+    if ($paymentGatewayModel->createGateway($name, $apiKey, $apiSecret, $flutterwavePublicKey, $flutterwaveSecretKey, $isActive)) {
       $message = "Payment gateway added successfully.";
     } else {
       $message = "Failed to add payment gateway.";
@@ -28,9 +30,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['gateway_name'];
     $apiKey = $_POST['api_key'];
     $apiSecret = $_POST['api_secret'];
+    $flutterwavePublicKey = $_POST['flutterwave_public_key'];
+    $flutterwaveSecretKey = $_POST['flutterwave_secret_key'];
     $isActive = isset($_POST['is_active']) ? 1 : 0;
 
-    if ($paymentGatewayModel->updateGateway($gatewayId, $name, $apiKey, $apiSecret, $isActive)) {
+    if ($paymentGatewayModel->updateGateway($gatewayId, $name, $apiKey, $apiSecret, $flutterwavePublicKey, $flutterwaveSecretKey, $isActive)) {
       $message = "Payment gateway updated successfully.";
     } else {
       $message = "Failed to update payment gateway.";
@@ -97,6 +101,7 @@ $gateways = $paymentGatewayModel->getAllGateways();
                           <tr>
                             <th>Gateway Name</th>
                             <th>API Key</th>
+                            <th>Flutterwave Public Key</th>
                             <th>Status</th>
                             <th>Actions</th>
                           </tr>
@@ -106,6 +111,7 @@ $gateways = $paymentGatewayModel->getAllGateways();
                             <tr>
                               <td><?= htmlspecialchars($row['gateway_name']) ?></td>
                               <td><?= htmlspecialchars($row['api_key']) ?></td>
+                              <td><?= htmlspecialchars($row['flutterwave_public_key']) ?></td>
                               <td><?= $row['is_active'] ? 'Active' : 'Inactive' ?></td>
                               <td>
                                 <button type="button" class="btn btn-sm btn-info edit-btn rounded" data-bs-toggle="modal" data-bs-target="#editGatewayModal"
@@ -113,6 +119,8 @@ $gateways = $paymentGatewayModel->getAllGateways();
                                   data-name="<?= htmlspecialchars($row['gateway_name']) ?>"
                                   data-apikey="<?= htmlspecialchars($row['api_key']) ?>"
                                   data-apisecret="<?= htmlspecialchars($row['api_secret']) ?>"
+                                  data-flutterwavepublickey="<?= htmlspecialchars($row['flutterwave_public_key']) ?>"
+                                  data-flutterwavesecretkey="<?= htmlspecialchars($row['flutterwave_secret_key']) ?>"
                                   data-isactive="<?= $row['is_active'] ?>">
                                   <i class="fas fa-edit"></i>
                                 </button>
@@ -156,10 +164,16 @@ $gateways = $paymentGatewayModel->getAllGateways();
                       </select>
                     </div>
                     <div class="mb-3">
-                      <input type="text" class="form-control" id="api_key" name="api_key" placeholder="API Key" required>
+                      <input type="text" class="form-control" id="api_key" name="api_key" placeholder="API Key">
                     </div>
                     <div class="mb-3">
-                      <input type="text" class="form-control" id="api_secret" name="api_secret" placeholder="API Secret Key" required>
+                      <input type="text" class="form-control" id="api_secret" name="api_secret" placeholder="API Secret Key">
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="flutterwave_public_key" name="flutterwave_public_key" placeholder="Flutterwave Public Key">
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="flutterwave_secret_key" name="flutterwave_secret_key" placeholder="Flutterwave Secret Key">
                     </div>
                     <div class="mb-3 form-check">
                       <input type="checkbox" class="form-check-input" id="is_active" name="is_active" value="1">
@@ -193,11 +207,19 @@ $gateways = $paymentGatewayModel->getAllGateways();
                     </div>
                     <div class="mb-3">
                       <label for="edit_api_key" class="form-label text-black">API Key</label>
-                      <input type="text" class="form-control" id="edit_api_key" name="api_key" required>
+                      <input type="text" class="form-control" id="edit_api_key" name="api_key">
                     </div>
                     <div class="mb-3">
                       <label for="edit_api_secret" class="form-label text-black">API Secret</label>
-                      <input type="text" class="form-control" id="edit_api_secret" name="api_secret" required>
+                      <input type="text" class="form-control" id="edit_api_secret" name="api_secret">
+                    </div>
+                    <div class="mb-3">
+                      <label for="edit_flutterwave_public_key" class="form-label text-black">Flutterwave Public Key</label>
+                      <input type="text" class="form-control" id="edit_flutterwave_public_key" name="flutterwave_public_key">
+                    </div>
+                    <div class="mb-3">
+                      <label for="edit_flutterwave_secret_key" class="form-label text-black">Flutterwave Secret Key</label>
+                      <input type="text" class="form-control" id="edit_flutterwave_secret_key" name="flutterwave_secret_key">
                     </div>
                     <div class="mb-3 form-check">
                       <input type="checkbox" class="form-check-input" id="edit_is_active" name="is_active" value="1">
@@ -220,12 +242,16 @@ $gateways = $paymentGatewayModel->getAllGateways();
                   var name = this.getAttribute('data-name');
                   var apiKey = this.getAttribute('data-apikey');
                   var apiSecret = this.getAttribute('data-apisecret');
+                  var flutterwavePublicKey = this.getAttribute('data-flutterwavepublickey');
+                  var flutterwaveSecretKey = this.getAttribute('data-flutterwavesecretkey');
                   var isActive = this.getAttribute('data-isactive');
 
                   document.getElementById('edit_gateway_id').value = id;
                   document.getElementById('edit_gateway_name').value = name;
                   document.getElementById('edit_api_key').value = apiKey;
                   document.getElementById('edit_api_secret').value = apiSecret;
+                  document.getElementById('edit_flutterwave_public_key').value = flutterwavePublicKey;
+                  document.getElementById('edit_flutterwave_secret_key').value = flutterwaveSecretKey;
                   var isActiveCheckbox = document.getElementById('edit_is_active');
                   isActiveCheckbox.checked = (isActive == 1);
                 });

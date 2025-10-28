@@ -36,15 +36,13 @@ if (!empty($user_id)) {
     $stmt_cart->close();
 }
 
-// Fetch Flutterwave Public Key
+// Fetch Flutterwave Public Key from payment_gateways table
 $flutterwave_public_key = '';
-$stmt = $conn->prepare("SELECT setting_value FROM payment_settings WHERE setting_name = ?");
-$public_key_name = 'flutterwave_public_key';
-$stmt->bind_param('s', $public_key_name);
+$stmt = $conn->prepare("SELECT flutterwave_public_key FROM payment_gateways WHERE gateway_name = 'flutterwave' AND is_active = 1 LIMIT 1");
 $stmt->execute();
 $result = $stmt->get_result();
 if ($row = $result->fetch_assoc()) {
-    $flutterwave_public_key = $row['setting_value'];
+    $flutterwave_public_key = $row['flutterwave_public_key'];
 }
 $stmt->close();
 

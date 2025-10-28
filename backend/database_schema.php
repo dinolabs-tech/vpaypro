@@ -331,8 +331,10 @@ $tables = [
             CREATE TABLE IF NOT EXISTS `payment_gateways` (
                 `gateway_id` INT AUTO_INCREMENT PRIMARY KEY,
                 `gateway_name` VARCHAR(255) NOT NULL,
-                `api_key` VARCHAR(255) NOT NULL,
-                `api_secret` VARCHAR(255) NOT NULL,
+                `api_key` VARCHAR(255) NULL,
+                `api_secret` VARCHAR(255) NULL,
+                `flutterwave_public_key` VARCHAR(255) NULL,
+                `flutterwave_secret_key` VARCHAR(255) NULL,
                 `is_active` BOOLEAN DEFAULT FALSE,
                 `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;"
