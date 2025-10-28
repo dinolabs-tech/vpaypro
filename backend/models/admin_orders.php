@@ -38,7 +38,8 @@ if (isset($_SESSION['user_id'])) {
 }
 
 $orders = [];
-$sql = "SELECT id, customer_id, total_amount, status, order_date, country, state FROM orders"; // Added country, state to select
+$sql = "SELECT id, c.name, customer_id, total_amount, status, order_date FROM orders o 
+INNER JOIN customers c ON o.customer_id = c.id"; // Added country, state to select
 
 $queryParams = [];
 $queryTypes = "";

@@ -38,7 +38,7 @@ include('models/admin_orders.php');
                         <thead>
                           <tr>
                             <th scope="col">S/N</th>
-                            <th scope="col">Customer ID</th>
+                            <th scope="col">Customer</th>
                             <th scope="col">Total Amount</th>
                             <th scope="col">Status</th>
                             <th scope="col">Order Date</th>
@@ -51,7 +51,7 @@ include('models/admin_orders.php');
                           <?php foreach ($orders as $order): ?>
                             <tr>
                               <th scope="row"><?= $order['id'] ?></th>
-                              <td><?= htmlspecialchars($order['customer_id']) ?></td>
+                              <td><?= htmlspecialchars($order['name']) ?></td>
                               <td>₦<?= number_format($order['total_amount'], 2) ?></td>
                               <td><?= htmlspecialchars($order['status']) ?></td>
                               <td><?= htmlspecialchars($order['order_date']) ?></td>
