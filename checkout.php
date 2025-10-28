@@ -221,7 +221,7 @@ $stmt->close();
 				customizations: {
 					title: "BuyVerse Payment",
 					description: "Payment for items from BuyVerse",
-					logo: "http://localhost/buyverse/images/logo.png", // Replace with actual logo URL
+					logo: "images/favicon.ico", // Replace with actual logo URL
 				},
 				callback: function(data) {
 					// Redirect to your callback page for server-side verification

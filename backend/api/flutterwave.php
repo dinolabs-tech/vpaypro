@@ -69,7 +69,7 @@ if (!$customerId) {
     exit;
 }
 
-$siteLogo = "https://dinolabstech.com/logo.png"; // Replace with actual logo URL if available
+$siteLogo = "../../images/favicon.ico"; // Replace with actual logo URL if available
 ?>
 
 <!DOCTYPE html>
