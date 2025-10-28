@@ -31,10 +31,12 @@ $low_stock_products = getLowStockProducts($conn, $user_role, $user_country, $use
                 </ol>
               </nav>
             </div>
-            <!-- <div class="ms-md-auto py-2 py-md-0">
-              <a href="#" class="btn btn-label-info btn-round me-2">Manage</a>
-              <a href="#" class="btn btn-primary btn-round">Add Customer</a>
-            </div> -->
+            <div class="ms-md-auto py-2 py-md-0">
+              <?php if ($_SESSION['role'] == 'Superuser') {?>
+              <a href="developer.php" class="btn btn-label-info btn-round me-2">Developer Tools</a>
+              <!-- <a href="#" class="btn btn-primary btn-round">Add Customer</a> -->
+               <?php } ?>
+            </div>
           </div>
           <section class="section dashboard">
             <?php if ($_SESSION['role'] == 'Superuser' || $_SESSION['role'] == 'CEO') { ?>
